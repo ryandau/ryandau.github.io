@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Donohue</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            line-height: 1.6; 
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container { 
+            width: 80%; 
+            margin: auto; 
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+        nav {
+            background-color: #f4f4f4;
+        }
+        nav ul {
+            list-style: none;
+            text-align: left;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: -4px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+            color: #333;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+        }
+        article {
+            margin-bottom: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+        /* Responsive styling */
+        @media(max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+            nav ul {
+                text-align: left;
+            }
+            nav ul li {
+                display: block;
+            }
+            nav ul li a {
+                display: block;
+            }
+        }
 
+        h1 {
+            margin: 0.25em 0;
+            padding: 0;
+        }
+
+        h3 {
+            margin: 0.25em 0; /* Adjust top and bottom margin as needed */
+            color: #bbb; /* Optional: a lighter color for the subtitle */
+            font-weight: normal; /* For a subtler look, but adjust as needed */
+        }
+
+        article {
+            margin: 0 1em; /* Adjust top and bottom margin as needed */
+        }
+
+        article h2 {
+            margin-bottom: 0;
+        }
+        article p {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header role="banner">
+        <div class="container">
+            <h1>Ryan Donohue</h1>
+            <h3>Bridging AI & Humanity</h3>
+        </div>
+    </header>
+    
+    <nav role="navigation">
+        <ul>
+            <div class="container">
+                <li><a href="/">Home</a></li>
+            </div>
+        </ul>
+    </nav>
+    
+    <div class="container" role="main">
+        <article>
+            <h2>Making Sense of Technology: The Intersection of AI & Humanity</h2>
+            <p>Published on <time datetime="2023-04-10">December 28, 2023</time></p>
+            <p>Greetings. If technology speaks to you as it does to me, you will find value here. I believe in straightforward discussion about technology, its utility, and its impact without the fanfare. Through my posts, expect a candid exchange on technology that matters. Whether you're deep in the field or just venturing in, let's share responsibly in this powerful space.</p>
+            
+            <p>Welcome to the dialogue. Shall we begin?</p>
+        </article>
+    </div>
+    
+    <footer role="contentinfo">
+        <div class="container">
+            &copy; 2023 ryand.au. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
